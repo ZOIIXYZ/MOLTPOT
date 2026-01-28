@@ -4,7 +4,7 @@ MOLTPOT is a deterministic onchain jackpot-token experiment. It borrows the conc
 
 This repository provides a minimal ERC20 implementation plus scaffolding for extending jackpot logic. The intent is to serve as an educational and experimental base for onchain token mechanics where jackpot-style redistribution is transparent, deterministic, and autonomous.
 
-## 🚀 Vision
+##  Vision
 
 Traditional ERC20s distribute supply linearly or all at launch. MOLTPOT proposes a different axis: supply *moves* over time toward discrete jackpot events. Holders do not farm yields or claim emissions; instead, they position themselves probabilistically to capture upcoming “molts.”
 
@@ -16,7 +16,7 @@ A “molt” is a redistribution cycle:
 
 All selection logic can be derived from block-level entropy primitives. No Chainlink VRF, no randomness beacons. Maximum transparency; zero trust beyond Ethereum consensus.
 
-## 🔧 Architecture Overview
+##  Architecture Overview
 
 This repo’s Solidity file is intentionally minimal. The intended jackpot architecture looks like:
 
@@ -34,7 +34,7 @@ This repo’s Solidity file is intentionally minimal. The intended jackpot archi
 
 These modules can be merged or separated based on gas budget and code clarity.
 
-## 🧱 Deterministic Entropy Sources
+##  Deterministic Entropy Sources
 
 MOLTPOT encourages exploration of onchain entropy such as:
 
@@ -47,7 +47,7 @@ MOLTPOT encourages exploration of onchain entropy such as:
 
 Entropy must always be paired with *eligibility rules*. Example: holders above a minimum balance threshold, or holders who held for N blocks, etc.
 
-## ⚙️ Roadmap (Suggested)
+##  Roadmap (Suggested)
 
 - [ ] Implement accumulator fee routing
 - [ ] Implement onchain deterministic selector
@@ -57,7 +57,7 @@ Entropy must always be paired with *eligibility rules*. Example: holders above a
 - [ ] Deploy to testnets (Sepolia/Holesky)
 - [ ] Deploy to mainnet
 
-## 🧪 Development & Deployment
+##  Development & Deployment
 
 Install dependencies:
 
@@ -77,7 +77,7 @@ Deploy locally:
 npx hardhat run scripts/deploy.js --network hardhat
 ```
 
-## 📦 Repo Contents
+##  Repo Contents
 
 ```
 contracts/
@@ -90,10 +90,10 @@ package.json       # dependency definitions
 README.md          # this document
 ```
 
-## 📝 License
+##  License
 
 MIT – free to fork, experiment, and ship.
 
-## 🔮 Final Notes
+##  Final Notes
 
 MOLTPOT is not a finished product; it is a launchpad for jackpot mechanics onchain. If you add accumulator or deterministic selector logic, credit is appreciated but not required. The real fun is in experimenting with how value can slosh around deterministically within an ERC20 ecosystem without trusting anything except Ethereum itself.
