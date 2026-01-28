@@ -1,7 +1,7 @@
 # MOLTPOT
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/MOLTPOT.png" alt="MOLTPOT Logo" width="300"/>
+  <img src="./moltball.png" width="320" />
 </p>
 
 
