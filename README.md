@@ -1,5 +1,10 @@
 # MOLTPOT
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/MOLTPOT.png" alt="MOLTPOT Logo" width="300"/>
+</p>
+
+
 MOLTPOT is a deterministic onchain jackpot-token experiment. It borrows the conceptual framing of periodic “state molting,” where old allocation states are shed and a new jackpot winner is selected at fixed intervals, without off-chain randomness or external oracles.
 
 This repository provides a minimal ERC20 implementation plus scaffolding for extending jackpot logic. The intent is to serve as an educational and experimental base for onchain token mechanics where jackpot-style redistribution is transparent, deterministic, and autonomous.
