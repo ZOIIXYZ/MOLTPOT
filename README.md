@@ -1,7 +1,7 @@
 # MOLTPOT
 
 <p align="center">
-  <img src="./moltball.png" width="320" />
+  <img src="./MOLTPOT.png" width="320" />
 </p>
 
 
